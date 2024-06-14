@@ -1,4 +1,19 @@
-Develop a restaurant page, ensuring it is user-friendly and visually appealing.
+# Restaurant App
+
+A React-based online restaurant application that allows users to explore menu categories, select dishes, and add them to their shopping cart.
+
+## Key Features
+Conditional Rendering: Displays different components based on API status.
+Mock API Integration: Uses mock APIs for displaying data.
+Loading Spinner: Displays a loading spinner from the react-loader-spinner package during API requests.
+Retry Button: Provides a retry button for failed API requests.
+Responsive Design: Uses media queries and flexbox for a responsive layout.
+Shopping Cart: Displays the count of menu items in the header and updates it when items are added.
+
+## Technical Details
+Frontend Framework: Built using React.
+Folder Structure: Maintains a consistent folder structure following clean code guidelines.
+Naming Conventions: Uses meaningful naming conventions, such as prefixing event handlers with on and creating reusable components.
 
 #### Mobile Interface
 
@@ -16,28 +31,8 @@ Develop a restaurant page, ensuring it is user-friendly and visually appealing.
     </div>
 </a>
 
-#### API:
 
-<a href="https://run.mocky.io/v3/77a7e71b-804a-4fbd-822c-3e365d3482cc" target=_blank_ >https://run.mocky.io/v3/77a7e71b-804a-4fbd-822c-3e365d3482cc</a>
-
-#### Instructions:
-
-- The API returns the dish categories and the dishes in that category.
-- The dish categories should be slidable.
-- If a dish has addons(`addoncat`), then it should display the text **“Customizations available”**.
-- Clicking on the `+` and `-` buttons should update the count accordingly and also on the cart icon on the top bar.
-- Implement maintainable and reusable coding standards.
-- The tabs must not be hardcoded, their length should change as per API.
-- Host the site in Heroku / Netlify/ any hosting.
-- Submit the git URL & site URL in the Submission form.
-
-#### Submission Form:
-
-<center>Click the below button and submit your git URL and site URL</center>
-<br>
-<a target=_blank_ href="https://forms.gle/NNpW1HBk7aDDaKuw6">
-  <center><button style="color: #fff; border: none; cursor: pointer; width: 218px; height: 34px; background-color: rgb(22, 101, 216); border-radius: 5.4px; box-shadow: rgb(0 0 0 / 36%) 0px 2px 4px 0px;font-family: Inter;font-size: 14px;color: rgb(255, 255, 255);font-weight: 500;letter-spacing: 0.5px;text-transform: uppercase;">
-    SUBMIT
-  </button>
-  </center>
-</a>
+## Future Enhancements
+User Authentication: Plan to add user authentication for a more personalized experience.
+Cart Page: Develop a dedicated page for the cart to manage orders.
+Backend Development: Intend to replace the mock API implementation with a backend using Node.js and Express.js.
